@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+header{
+    border: 1px solid rgb(216, 213, 213);
+    height: 70px;
+    background-color: aqua;
+    display: grid;
+    place-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+}
+
+
+.container{
+    border: 10px solid brown;
+    border-radius: 4px;
+    width: 60%;
+    margin: 10px auto;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    top: 80px;
+    height: 85vh;
+    overflow-y: scroll;
+}
+
+.post_container{
+    border: 1px solid rgb(184, 184, 184);
+    padding: 2em 1em;
+    margin: 1em auto;
+    background-color: rgb(245, 244, 244);
+    width: 80%;
+}
+
+.post_heading{
+    background-color: yellow;
+}
